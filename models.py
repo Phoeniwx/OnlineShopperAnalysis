@@ -149,5 +149,5 @@ def random_forest(train_x, train_y, test_x, test_y):
     clf = RandomForestClassifier()
     clf.fit(train_x, train_y)
     print("Train time: %s" % (time.time() - start))
-    dump(clf, 'random_forest.model')
+    dump(clf, 'models/random_forest.model')
     judge(clf, test_x, test_y)
