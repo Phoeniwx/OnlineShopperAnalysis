@@ -33,4 +33,5 @@ x_train, x_test, y_train, y_test = train_test_split(vectors, targets,
 # logic_reg(x_train, y_train, x_test, y_test)
 # knn(x_train, y_train, x_test, y_test)
 # decision_tree(x_train, y_train, x_test, y_test)
-random_forest(x_train, y_train, x_test, y_test)
+# random_forest(x_train, y_train, x_test, y_test)
+# svm_(x_train, y_train, x_test, y_test)
